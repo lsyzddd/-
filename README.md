@@ -33,7 +33,6 @@ configureWebpack: config => {
 ```
 
 ### 参考链接 
-[掘金](https://juejin.im/entry/5b4f04adf265da0f5a254a09)    
-[掘金](https://segmentfault.com/a/1190000017008697)
-[github中issues链接](https://github.com/webpack-contrib/uglifyjs-webpack-plugin/issues/362)
-123  
+[掘金](https://juejin.im/entry/5b4f04adf265da0f5a254a09)     
+[掘金](https://segmentfault.com/a/1190000017008697)    
+[github中issues链接](https://github.com/webpack-contrib/uglifyjs-webpack-plugin/issues/362)    
