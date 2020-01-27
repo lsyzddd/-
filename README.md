@@ -12,22 +12,22 @@ npm i uglifyjs-webpack-plugin@1
 #### vue.config.js中配置
 ```
 configureWebpack: config => {
-	let plugins = [
-		new UglifyJsPlugin({
-	    uglifyOptions: {
-		  output: {
-	  		comments: false
-		  },
-	      compress: {
-	        warnings: false,
-	        drop_debugger: true,
-	        drop_console: true,
-	      },
+  let plugins = [
+	new UglifyJsPlugin({
+      uglifyOptions: {
+	  	output: {
+  		  comments: false
 	    },
-	    sourceMap: false,
-	    parallel: true,
-	  })
-	];
-	config.plugins = [...config.plugins, ...plugins];	
+        compress: {
+          warnings: false,
+          drop_debugger: true,
+          drop_console: true,
+        },
+      },
+      sourceMap: false,
+      parallel: true,
+    })
+  ];
+  config.plugins = [...config.plugins, ...plugins];	
 }
 ```
